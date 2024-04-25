@@ -1,0 +1,54 @@
+.apod-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: auto;
+}
+
+.apod-heading{
+    font-size: 1.9rem;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+
+.apod-main-div{
+    background-color: #111112;
+    width: 60vw;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.description{
+    opacity: 0.8; 
+    font-size: 19px;
+    width: 800px;
+}
+
+.apod-img{
+
+    height: 40vh;
+    image-resolution: from-image;
+
+}
+
+.details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 18px;
+    opacity: 0.8;
+    font-weight: 800;
+}

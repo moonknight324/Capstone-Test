@@ -1,0 +1,55 @@
+.nav-HomePage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #3e3e3e;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content{
+  font-size: 25px;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.nav-link-home{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-link-home:hover{
+  color: #007bff;
+}
+
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.nav-left{
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+
+.navbar-custom {
+    background-color: #000000; 
+}
+
+.nav-right > div {
+  margin-left: 20px;
+}
+
+.nav-right > div:hover {
+  color: #007bff; 
+}
+.nav-right > div {
+  margin-left: 20px;
+  font-size: 16px;
+}

@@ -1,0 +1,79 @@
+.isro-launches-heading{
+    font-size: 2.9rem;
+    font-weight: 900;
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(164, 219, 243);
+    margin: .5rem;
+}
+
+.isro-launches-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  overflow: auto;
+}
+
+
+
+.launch-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.launch-item {
+  flex: 0 0 calc(33.333% - 20px);
+  max-width: calc(33.333% - 20px);
+  background-color:rgb(164, 219, 243);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.launch-item p {
+  margin-bottom: 10px;
+}
+
+.launch-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.launch-item a:hover {
+  text-decoration: underline;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+
+.pagination button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
